@@ -5,11 +5,16 @@ API : IEXより取得 (https://exchange.iex.io/products/market-data-connectivity
 
 ## 使用技術  
 ・Python  
-・SQL
+・SQL  
 ・html, CSS  
 ・Flask  
 
 試運転の際は以下の項目をご利用ください．  
+$ export API_KEY=pk_bf978c58267c473181bac9b8568e9a31  
+↓ログイン画面用  
+ID : Kaname  
+pass : Kaname8206  
+
 
 
 ## 全体の構成  
