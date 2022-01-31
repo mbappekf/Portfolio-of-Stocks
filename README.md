@@ -3,8 +3,14 @@ webアプリケーション上で株価の売買及びその管理が出来る�
 企業の株価はAPIを利用することで各企業の株価を取得し，所望の株式を購入・売却が可能．  
 API : IEXより取得 (https://exchange.iex.io/products/market-data-connectivity/)  
 
-PythonフレームワークのFlaskを用いて開発．フロントエンド側はBootStrapを用いて全体を整えた．  
-データベースにはSQLを使用．
+## 使用技術  
+・Python  
+・SQL
+・html, CSS  
+・Flask  
+
+試運転の際は以下の項目をご利用ください．  
+
 
 ## 全体の構成  
 BootStrapを用いてレイアウトを作成．  
