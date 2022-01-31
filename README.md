@@ -9,7 +9,7 @@ API : IEXより取得 (https://exchange.iex.io/products/market-data-connectivity
 ・html, CSS  
 ・Flask  
 
-試運転の際は以下の項目をご利用ください．  
+試運転の際は下記のコマンドを実行しFlaskを起動した後，以下の項目をご利用ください．  
 $ export API_KEY=pk_bf978c58267c473181bac9b8568e9a31  
 
 ### URL  (ログイン画面)
