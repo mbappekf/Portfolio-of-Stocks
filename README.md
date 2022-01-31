@@ -16,8 +16,8 @@ https://ide-dddc674df4624f569f4ce2405f24ba7a-8080.cs50.ws/login
 ↓ログイン画面用  
 ID : Kaname  
 pass : Kaname8206  
-
-###　Main画面　（ログイン後のページ）  
+  
+### Main画面　（ログイン後のページ）  
 https://ide-dddc674df4624f569f4ce2405f24ba7a-8080.cs50.ws/
 
 
