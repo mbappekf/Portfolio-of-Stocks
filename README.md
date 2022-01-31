@@ -1,7 +1,10 @@
 # Portfolio-of-Stocks
 webアプリケーション上で株価の売買及びその管理が出来るアプリケーションを作成した．  
 企業の株価はAPIを利用することで各企業の株価を取得し，所望の株式を購入・売却が可能．  
-API : IEXより取得 (https://exchange.iex.io/products/market-data-connectivity/)
+API : IEXより取得 (https://exchange.iex.io/products/market-data-connectivity/)  
+
+PythonフレームワークのFlaskを用いて開発．フロントエンド側はBootStrapを用いて全体を整えた．  
+データベースにはSQLを使用．
 
 ## 全体の構成  
 BootStrapを用いてレイアウトを作成．  
@@ -60,4 +63,20 @@ BootStrapを用いてレイアウトを作成．
 Buy画面と同様に更新されたデータはデータベースに反映され即時，Main画面上のポートフォリオに反映される．  
 
 -Sell-  
-![sell](https://user-images.githubusercontent.com/77096897/151734374-af924106-b1d2-479b-bbe1-7bffc1e358ca.png)
+![sell](https://user-images.githubusercontent.com/77096897/151734374-af924106-b1d2-479b-bbe1-7bffc1e358ca.png)  
+
+
+## History画面  
+株式の売買履歴を参照することが出来る．  
+株式の購入と売却のログを記録し一覧で表示する仕様にした．株式の種類と取引価格，取引成立日時を表示．  
+
+-Histroy-  
+![history](https://user-images.githubusercontent.com/77096897/151734926-4b4a7aeb-3f50-45c3-b9b6-62330e414c5f.png)  
+
+
+## Payment画面  
+キャッシュの入金が行える．所望の入金額を入力することでデータベース上のキャッシュ残高を更新できる．  
+更新したデータはMain画面上のポートフォリオにおいても即時反映される．  
+
+-Payment-  
+![payment](https://user-images.githubusercontent.com/77096897/151735095-a7eb13ba-0267-4310-8221-6fe57e11841d.png)
