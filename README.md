@@ -5,9 +5,12 @@ API : IEXより取得 (https://exchange.iex.io/products/market-data-connectivity
 
 ## 使用技術  
 ・Python  
-・SQL  
+・SQLite  
 ・html, CSS  
 ・Flask  
+
+アプリケーションのデプロイまでは至っておりません．アプリケーションの動作はローカル環境下での実行の様子をスクリーンショットしましたので以下をご参照いただきますと幸いです．  
+
 
 試運転の際は下記のコマンドを実行しFlaskを起動した後，以下の項目をご利用ください．  
 $ export API_KEY=pk_bf978c58267c473181bac9b8568e9a31  
